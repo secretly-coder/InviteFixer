@@ -1,15 +1,12 @@
 package com.github.ribro.invitefixer
 
 import android.content.Context
-import com.aliucord.Logger
 import com.aliucord.annotations.AliucordPlugin
 import com.aliucord.entities.Plugin
 import com.aliucord.patcher.PreHook
 
 @AliucordPlugin
 class InviteFixer : Plugin() {
-    private val logger = Logger("InviteFixer")
-
     override fun start(context: Context) {
         val inviteCodeClass = Class.forName("com.discord.stores.StoreInviteSettings\$InviteCode")
 
