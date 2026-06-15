@@ -1,0 +1,6 @@
+{
+    "name": "InviteFixer",
+    "version": "1.0.0",
+    "description": "Retries server join requests to fix 'Oops' errors.",
+    "author": "Ribro"
+}
