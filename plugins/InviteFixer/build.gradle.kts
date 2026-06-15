@@ -1,15 +1,6 @@
-plugins {
-    id("com.android.library")
-    id("kotlin-android")
-}
+version = "1.0.0"
+description = "Normalizes Discord invite joins that fail in the legacy Android client."
 
-android {
-    compileSdk = 33
-    defaultConfig {
-        minSdk = 21
-    }
-}
-
-dependencies {
-    compileOnly("com.aliucord:aliucord:1.0.0")
+aliucord {
+    deploy.set(false)
 }
