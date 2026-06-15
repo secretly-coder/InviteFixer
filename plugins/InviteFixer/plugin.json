@@ -1,6 +1,6 @@
 {
     "name": "InviteFixer",
     "version": "1.0.0",
-    "description": "Retries server join requests to fix 'Oops' errors.",
+    "description": "Normalizes Discord invite joins that fail in the legacy Android client.",
     "author": "Ribro"
 }
